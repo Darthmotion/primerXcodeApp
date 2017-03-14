@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--vistaInicial-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="aleApp1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="vistaInicial" id="BYZ-38-t0r" customClass="ViewController" customModule="aleApp1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -25,6 +25,9 @@
                                 <rect key="frame" x="159" y="318" width="57" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Boton 2"/>
+                                <connections>
+                                    <action selector="Click:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NC6-4H-5NY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w5V-wE-8xa">
                                 <rect key="frame" x="159" y="460" width="57" height="30"/>
@@ -80,7 +83,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q9e-tP-Rpe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="933.60000000000002" y="38.23088455772114"/>
+            <point key="canvasLocation" x="950" y="-620"/>
         </scene>
     </scenes>
 </document>
