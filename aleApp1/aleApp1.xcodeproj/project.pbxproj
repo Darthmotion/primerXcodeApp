@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		21FB79511E7754A2002EA35E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FB79501E7754A2002EA35E /* AppDelegate.swift */; };
-		21FB79531E7754A2002EA35E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FB79521E7754A2002EA35E /* ViewController.swift */; };
+		21FB79531E7754A2002EA35E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FB79521E7754A2002EA35E /* MainViewController.swift */; };
 		21FB79561E7754A2002EA35E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21FB79541E7754A2002EA35E /* Main.storyboard */; };
 		21FB79581E7754A2002EA35E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21FB79571E7754A2002EA35E /* Assets.xcassets */; };
 		21FB795B1E7754A2002EA35E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21FB79591E7754A2002EA35E /* LaunchScreen.storyboard */; };
 		21FB79661E7754A2002EA35E /* aleApp1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FB79651E7754A2002EA35E /* aleApp1Tests.swift */; };
 		21FB79711E7754A2002EA35E /* aleApp1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FB79701E7754A2002EA35E /* aleApp1UITests.swift */; };
+		FE4F1ECE1E784B14002B1849 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4F1ECD1E784B14002B1849 /* ModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		21FB794D1E7754A2002EA35E /* aleApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aleApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21FB79501E7754A2002EA35E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		21FB79521E7754A2002EA35E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21FB79521E7754A2002EA35E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		21FB79551E7754A2002EA35E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21FB79571E7754A2002EA35E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21FB795A1E7754A2002EA35E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		21FB796C1E7754A2002EA35E /* aleApp1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aleApp1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21FB79701E7754A2002EA35E /* aleApp1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aleApp1UITests.swift; sourceTree = "<group>"; };
 		21FB79721E7754A2002EA35E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE4F1ECD1E784B14002B1849 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				21FB79501E7754A2002EA35E /* AppDelegate.swift */,
-				21FB79521E7754A2002EA35E /* ViewController.swift */,
+				21FB79521E7754A2002EA35E /* MainViewController.swift */,
 				21FB79541E7754A2002EA35E /* Main.storyboard */,
 				21FB79571E7754A2002EA35E /* Assets.xcassets */,
 				21FB79591E7754A2002EA35E /* LaunchScreen.storyboard */,
 				21FB795C1E7754A2002EA35E /* Info.plist */,
+				FE4F1ECD1E784B14002B1849 /* ModalViewController.swift */,
 			);
 			path = aleApp1;
 			sourceTree = "<group>";
@@ -259,7 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21FB79531E7754A2002EA35E /* ViewController.swift in Sources */,
+				21FB79531E7754A2002EA35E /* MainViewController.swift in Sources */,
+				FE4F1ECE1E784B14002B1849 /* ModalViewController.swift in Sources */,
 				21FB79511E7754A2002EA35E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +509,7 @@
 				21FB79771E7754A2002EA35E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21FB79781E7754A2002EA35E /* Build configuration list for PBXNativeTarget "aleApp1Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				21FB797A1E7754A2002EA35E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21FB797B1E7754A2002EA35E /* Build configuration list for PBXNativeTarget "aleApp1UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				21FB797D1E7754A2002EA35E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
