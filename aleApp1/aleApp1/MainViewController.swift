@@ -13,6 +13,7 @@ class MainViewController: UIViewController {
     @IBOutlet weak var modalTestButton: UIButton!
     @IBOutlet weak var alertTestButton: UIButton!
     @IBOutlet weak var actionSheetTestButton: UIButton!
+    @IBOutlet weak var changingLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +28,9 @@ class MainViewController: UIViewController {
         let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "modalViewController") as! ModalViewController
         present(vc, animated: true)
+        
+        changingLabel.text = modalTestButton.currentTitle
+        
     }
 
     @IBAction func didTapButton2(_ sender: UIButton) {
@@ -35,6 +39,8 @@ class MainViewController: UIViewController {
         
         controladorAlerta.addAction(okAction)
         present(controladorAlerta, animated: true, completion: nil)
+        
+        changingLabel.text = alertTestButton.currentTitle
     }
     
     @IBAction func didTapButton3(_ sender: UIButton) {
@@ -54,6 +60,8 @@ class MainViewController: UIViewController {
         actionSheet.addAction(cancelAction)
         
         present(actionSheet, animated: true, completion: nil)
+        
+        changingLabel.text = actionSheetTestButton.currentTitle
     }
 }
 

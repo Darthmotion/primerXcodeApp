@@ -68,6 +68,7 @@
                     <connections>
                         <outlet property="actionSheetTestButton" destination="w5V-wE-8xa" id="0mT-mw-iRl"/>
                         <outlet property="alertTestButton" destination="Rne-Vn-Ehh" id="cgX-Ts-HGz"/>
+                        <outlet property="changingLabel" destination="iVM-dk-1Q8" id="vhj-C9-paj"/>
                         <outlet property="modalTestButton" destination="JFs-GD-1YX" id="ZpV-my-Orl"/>
                     </connections>
                 </viewController>
