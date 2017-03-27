@@ -35,5 +35,53 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "aleApp1/MainViewController.swift"
+            timestampString = "512281148.497085"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "didTapButton3(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "aleApp1.MainViewController.didTapButton3 (__ObjC.UIButton) -&gt; ()"
+                  moduleName = "aleApp1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barbeito/Desktop/XcodePrograms/aleApp1/aleApp1/aleApp1/MainViewController.swift"
+                  timestampString = "512280773.971568"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "203">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "aleApp1.MainViewController.(didTapButton3 (__ObjC.UIButton) -&gt; ()).(closure #1)"
+                  moduleName = "aleApp1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Barbeito/Desktop/XcodePrograms/aleApp1/aleApp1/aleApp1/MainViewController.swift"
+                  timestampString = "512280773.973347"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "26">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

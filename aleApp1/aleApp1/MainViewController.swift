@@ -45,14 +45,18 @@ class MainViewController: UIViewController {
     
     @IBAction func didTapButton3(_ sender: UIButton) {
         //Demasiados enters usas. Todos los _let_ podes agruparlos, total son bindings.
-        let actionSheet = UIAlertController(title: "Action Sheet", message: "Elija Una                                                                Opcion", preferredStyle: .actionSheet)
+        let actionSheet = UIAlertController(title: "Action Sheet", message: "Elija Una Opcion", preferredStyle: .actionSheet)
+        let option0Title = "Gato"
+        let option1Title = "Perro"
+        let option2Title = "Apache Attack Helicopter"
+        let cancelTitle = "Cancelar"
         
         //Zero-indexed SIEMPRE, excepto que la experiencia de usuario lo reclame.
         //Igual bien acomodando las opciones en el orden que se presentan en UI.
-        let option0 = UIAlertAction(title: "Gato", style: .default, handler: nil)
-        let option1 = UIAlertAction(title: "Perro", style: .default, handler: nil)
-        let option2 = UIAlertAction(title: "Apache Attack Helicopter", style: .default, handler: nil)
-        let cancelAction = UIAlertAction(title: "Cancelar", style: .cancel, handler: nil)
+        let option0 = UIAlertAction(title: option0Title, style: .default) {action in self.changingLabel.text = option0Title}
+        let option1 = UIAlertAction(title: option1Title, style: .default) {action in self.changingLabel.text = option1Title}
+        let option2 = UIAlertAction(title: option2Title, style: .default) {action in self.changingLabel.text = option2Title}
+        let cancelAction = UIAlertAction(title: cancelTitle, style: .cancel) {action in self.changingLabel.text = cancelTitle}
         
         actionSheet.addAction(option0)
         actionSheet.addAction(option1)
